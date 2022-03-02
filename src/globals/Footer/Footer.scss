@@ -1,0 +1,75 @@
+@import "../../partials/colors.scss";
+@import "../../partials/fonts.scss";
+@import "../../partials/resets.scss";
+
+footer {
+  color: $secondary-color;
+  font-size: 1.3em;
+  border-top: 1px solid $secondary-color;
+  .links li {
+    padding: 0 1rem;
+  }
+  .links li:not(:last-child) {
+    border-right: 1px solid $secondary-color;
+  }
+}
+
+footer .row.first_row {
+  justify-content: center;
+  padding: 40px 0 10px 0;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+}
+
+footer ul li a {
+  color: $secondary-color;
+  text-decoration: none !important;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+}
+
+footer ul li a:hover {
+  color: #434f9d !important;
+}
+
+footer .col-md-2 div {
+  display: flex;
+
+  img {
+    align-self: flex-start;
+  }
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.8rem;
+  padding-bottom: 20px;
+  margin-bottom: 0;
+
+  @media screen and(max-width:768px) {
+    text-align: left;
+  }
+}
+
+footer .row.social {
+  margin-top: 1rem;
+  padding: 20px 0;
+}
+
+footer .row.social .col-md-12 {
+  display: flex;
+  justify-content: center;
+}
+
+footer .row.social ul li {
+  display: inline;
+  margin-right: 20px;
+}

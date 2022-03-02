@@ -1,0 +1,27 @@
+const colors = {
+  buttonBackground: '#4E5A62',
+  buttonColor: '#a0d9d9',
+  dashboardBoxOne: '#D1E4F5',
+  dashboardBoxTwo: '#D0ECF4',
+  dashboardBoxThree: '#E3EFD0',
+  dashboardBoxFour: '#EFD9D0',
+  dashboardBg: '#F9FAFC',
+  colorBlack: '#000',
+  colorLightBlue: '#0098da',
+  colorLightDark: '#243137',
+  colorLightGreen: '#B3C2AE',
+  colorGrey: '#ddd',
+  colorGreyDark: '#848688',
+  colorWhite: '#fff',
+  borderColor: '#BDBFC1',
+  footer: '#E9EAEC',
+  institutionColor: '#B9FAE9',
+  navBar: '#E6E7E8',
+  primaryColor: '#fafafa',
+  secondaryColor: '#F7F8DA',
+  tabBorder: '#D6DFD2',
+  tertiaryColor: '#B4ECF7',
+  textColor: '#4B4B4D',
+};
+
+export default colors;
